@@ -1,6 +1,7 @@
-@import "variaveis.less";
+@import "mapas.less";
 @breakpointMobile: ~"(max-width: 767px)";
 @breakpointTablet: ~"(min-width: 768px) and (max-width: 1023px)";
+
 // mixin
 .marginBottom8{  
     margin-bottom: 8px;
@@ -14,8 +15,8 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background-color: @corDeFundo;
-    color: @corDosTextos;
+    background-color: #colors[background-color];
+    color: #colors[textColor];
 }
 .container{
     max-width: 960px;
@@ -68,8 +69,9 @@ header{
     li{
         list-style: none;
         img{
+            transition: all ease .3s;
             &:hover{
-                transform: scale(1.1);
+                transform: scale(1.2);
             }
         }
 

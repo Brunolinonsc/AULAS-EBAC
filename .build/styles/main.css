@@ -61,6 +61,9 @@ header .profile-avatar {
 .social-links li {
   list-style: none;
 }
+.social-links li img {
+  transition: all ease 0.3s;
+}
 .social-links li img:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
