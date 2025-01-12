@@ -8,7 +8,7 @@
   font-family: 'Roboto', sans-serif;
 }
 body {
-  background-color: #192a56;
+  background-color: #171f6d;
   color: #faf7f5;
 }
 li {
@@ -19,22 +19,24 @@ li {
   width: 100%;
   margin: 0 auto;
   height: 100vh;
-  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .container {
     max-width: 80%;
-    background-color: yellow;
+    background-color: #121f8a;
   }
 }
 @media (max-width: 767px) {
   .container {
-    background-color: red;
+    background-color: #121f8c;
     max-width: 70%;
   }
 }
 header {
-  padding: 24px;
+  padding-bottom: 24px;
 }
 header .profile-avatar {
   display: block;
@@ -88,4 +90,8 @@ header .profile-avatar {
 .projects-list-item a:hover {
   color: #0097e6;
   background-color: transparent;
+}
+h2 {
+  padding-top: 15px;
+  text-align: center;
 }

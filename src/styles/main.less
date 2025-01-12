@@ -27,22 +27,24 @@ li{
     width: 100%;
     margin: 0 auto;
     height: 100vh;
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     @media @breakpointTablet {
         max-width: 80%;
-        background-color: yellow;   
+        background-color: #121f8a;   
     }
 
     @media @breakpointMobile {
-        background-color: red;
+        background-color: #121f8c;
         max-width: 70%;
     }
     
 }
 
 header{
-    padding: 24px;
+    padding-bottom: 24px;
     
     .profile-avatar{
         display: block;
@@ -103,6 +105,11 @@ header{
                 color: #colors[buttonColor];
                 background-color: transparent;
             }
+            
         }
     }
 }
+    h2{
+        padding-top: 15px;
+        text-align: center;
+    }
