@@ -32,11 +32,12 @@ li {
 @media (max-width: 767px) {
   .container {
     background-color: #121f8c;
-    max-width: 70%;
+    max-width: 80%;
+    padding-top: 350px;
   }
 }
 header {
-  padding-bottom: 24px;
+  padding-top: 8px;
 }
 header .profile-avatar {
   display: block;
